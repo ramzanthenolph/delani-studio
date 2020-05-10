@@ -7,5 +7,8 @@ $(document).ready(function(){
     });
     $("img#producticon").click(function(){
         $(".product").show();
-    })
+    });
+    $("img#work1").hover(function(){
+        $(".centered").show();
+    });
 });

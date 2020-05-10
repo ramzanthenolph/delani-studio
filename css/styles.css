@@ -30,3 +30,16 @@ body{
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 15px;
 }
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+.gallery.p{
+    border: 3px;
+    border-style: solid;
+    border-color: white;
+    color: white;
+}
