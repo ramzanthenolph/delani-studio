@@ -3,7 +3,7 @@ html{
   scroll-behavior: smooth;
 }
 .landing{
-  background-image: url('../images/backgrounds/h_img.jpg');
+  background-image: url('..assets/backgrounds/h_img.jpg');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -46,5 +46,14 @@ html{
     60% {
       transform: translateY(-45px);
     }
+  }
+  .about{
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top:40px;
+    font-family: 'Copse', serif;
+  }
+  #about{
+    font-family: 'Gabriela', serif;
   }
   
