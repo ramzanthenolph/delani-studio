@@ -1,14 +1,11 @@
 $(document).ready(function(){
-    $("img#designlogo").click(function(){
-        $(".design").show();
+    $("#development-image").click(function(){
+      $("#development-image").slideDown('1500').hide('1000');
+      $("#development").show('1500');
     });
-    $("img#developmenticon").click(function(){
-        $(".dev").show();
+    $("#development").click(function(){
+      $("#development").slideUp('1500');
+      $("#development-image").slideDown('1500');
     });
-    $("img#producticon").click(function(){
-        $(".product").show();
-    });
-    $("img#work1").hover(function(){
-        $(".centered").show();
-    });
-});
+  });
+  
