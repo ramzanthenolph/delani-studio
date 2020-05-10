@@ -1,13 +1,18 @@
 body{
     text-align: center;
+    padding: 10px;
 }
 .home{
-    background: url("../assets/backgrounds/h_img.jpg");
+    background-image: url("../assets/backgrounds/h_img.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    color: white;
     
-    background-color: #cccccc;
-    height: auto;
-    width: auto;
-    padding: 20px;
     
 }
 .services{
@@ -42,4 +47,9 @@ body{
     border-style: solid;
     border-color: white;
     color: white;
+}
+.contact{
+    background-image: url("../assets/backgrounds/c_image.jpg");
+    color: white;
+    padding: 10px;
 }
