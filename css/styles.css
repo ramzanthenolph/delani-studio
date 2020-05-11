@@ -10,7 +10,7 @@ html{
   color: white;
   text-align: center;
   padding-top:17%; 
-  font-family: 'Gabriela', serif;
+  font-family: 'PT Sans', sans-serif;
   /* padding-bottom:5%; */
 }
 .landing h1{
@@ -52,10 +52,10 @@ html{
   text-align: center;
   padding-bottom: 30px;
   padding-top:40px;
-  font-family: 'Copse', serif;
+  font-family: 'PT Sans', sans-serif;
 }
 #about{
-  font-family: 'Gabriela', serif;
+  font-family: 'PT Sans', sans-serif;
 }
 .services{
   text-align: center;
@@ -64,11 +64,11 @@ html{
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  font-family: 'Copse', serif;
+  font-family: 'PT Sans', sans-serif;
   font-size: 18px;
 }
 .services h2{
-  font-family: 'Gabriela', serif;
+  font-family: 'PT Sans', sans-serif;
   
 }
 #servicesoverlay{
@@ -77,10 +77,10 @@ html{
   padding-bottom: 10%;
 }
 .what-we-do{
-  font-family: 'Quattrocento', serif;
+  font-family: 'PT Sans', sans-serif;
   text-align: center;
   padding-top: 40px;
-  font-family: 'Gabriela', serif;
+  font-family: 'PT Sans', sans-serif;
 }
 .what-we-do .headings{
   padding-bottom: 38px;
@@ -99,7 +99,7 @@ html{
 .portfolio h2{
   text-align: center;
   padding-top:40px;
-  font-family: 'Gabriela', serif;
+  font-family: 'PT Sans', sans-serif;
 }
 .contact{
   background-image: url('../assets/backgrounds/c_image.jpg');
@@ -117,13 +117,13 @@ html{
   margin-top: 30px;
   padding-top: 40px;
   padding-bottom: 20px;
-  font-family: 'Gabriela', serif;
+  font-family: 'PT Sans', sans-serif;
 }
 input[type=text],input[type=email],#comment{
   background: transparent;
   color: white;
   font-size: 20px;
-  font-family: 'Copse', serif;
+  font-family: 'PT Sans', sans-serif;
 }
 
 .form-control::-webkit-input-placeholder { 
@@ -149,14 +149,14 @@ button{
 footer{
   text-align: center;
   padding-top: 30px;
-  font-family: 'Delius Swash Caps', cursive;
+  font-family: 'PT Sans', sans-serif;
 }
 footer p{
   margin-top: 10px;
 }
 #product, #development, #design{
   display: none;
-  font-family: 'Copse', serif;
+  font-family: 'PT Sans', sans-serif;
   font-size: 16px;
 }
 #product .title, #development .title, #design .title{
@@ -176,7 +176,7 @@ footer p{
   text-align: center;
   font-size: 30px;
   padding-top: 50%;
-  font-family: 'Delius Swash Caps', cursive;
+  font-family: 'PT Sans', sans-serif;
 }
 @media only screen and (max-width: 755px){
   #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
